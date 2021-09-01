@@ -129,6 +129,10 @@ footer a {
 
 footer img {
     width: 33px;
+    transition: transform 0.3s;
 }
 
+footer img:hover{
+    transform: scale(1.12);
+}
 
