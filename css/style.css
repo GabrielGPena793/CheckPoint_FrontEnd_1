@@ -68,7 +68,7 @@ header h1{
     font-family: var(--title-font) ;
     background: linear-gradient(
     270.97deg, #FFE580 -21.36%, #1dc03b -2.45%, #110bd3 26.84%, #f71403 64.15%, #f6f20a 108.29%, #07d114 159.03%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
