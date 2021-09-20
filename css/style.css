@@ -31,7 +31,6 @@ body{
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
-    height: 100vh;
     width: 100%;
     text-align: center;
     animation: visivel 1.5s forwards;
@@ -88,12 +87,14 @@ p{
 }
 
 iframe.margin{
-    width: 1280px;
-    height: 720px;
+    width: 69%;
+    height: ;
     box-shadow: 5px 5px 10px black;
     border-radius: 7px;
     margin-top: 23px;
 }
+
+
 /* ======== Curiosidades ========== */
 
 
@@ -118,9 +119,10 @@ section.curiosidades ul{
 /* ======== Footer ========== */
 
 
-footer{
+body footer{
     background: rgba(54, 43, 43, 0.61);
     padding-top: 5px;
+    margin-top: 31px;
     
     
 }
@@ -139,3 +141,66 @@ footer img:hover{
     transform: scale(1.12);
 }
 
+@media (min-width: 390px){
+    iframe{
+        height: 250px;
+    }
+}
+@media (min-width: 650px){
+    iframe{
+        height: 300px;
+    }
+}
+@media (min-width: 720px){
+    iframe{
+        height: 400px;
+    }
+}
+
+@media (min-width: 1050px){
+    iframe{
+        height: 450px;
+    }
+}
+
+@media (min-width: 1200px){
+    iframe{
+        height: 500px;
+    }
+}
+@media (min-width: 1300px){
+    iframe{
+        height: 550px;
+    }
+}
+@media (min-width: 1300px){
+    iframe{
+        height: 550px;
+    }
+}
+
+@media (min-width: 1400px){
+    iframe{
+        height: 600px;
+    }
+}
+
+
+@media (min-width: 1550px){
+    iframe{
+        height: 650px;
+    }
+}
+
+
+@media (min-width: 1700px){
+    iframe{
+        height: 700px;
+    }
+}
+
+@media (min-width: 1550px){
+    iframe{
+        height: 750px;
+    }
+}
